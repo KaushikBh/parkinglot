@@ -1,0 +1,10 @@
+2014-10-29 20:53:01,579 ERROR [main] - System.err - log4j:WARN No appenders could be found for logger (org.springsource.ide.eclipse.commons.core.templates.TemplateProcessor).
+2014-10-29 20:53:01,579 ERROR [main] - System.err - log4j:WARN Please initialize the log4j system properly.
+2014-10-29 20:55:25,490 ERROR [Worker-2] - System.err - java.lang.NullPointerException
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer.initialize(MavenClasspathVariableInitializer.java:30)
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:3346)
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.springframework.ide.eclipse.internal.uaa.monitor.LibraryUsageMonitor.readPackageFragmentRoot(LibraryUsageMonitor.java:364)
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.springframework.ide.eclipse.internal.uaa.monitor.LibraryUsageMonitor.projectClasspathChanged(LibraryUsageMonitor.java:177)
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.springframework.ide.eclipse.internal.uaa.monitor.LibraryUsageMonitor.access$0(LibraryUsageMonitor.java:166)
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.springframework.ide.eclipse.internal.uaa.monitor.LibraryUsageMonitor$1$1.run(LibraryUsageMonitor.java:88)
+2014-10-29 20:55:25,491 ERROR [Worker-2] - System.err - at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
